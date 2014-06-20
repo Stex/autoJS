@@ -6,7 +6,7 @@ mod =
   # Rails helper for easier usage:
   #
   #  def moment(time, options = {})
-  #    options[:class] ||= 'moment'
+  #    options['data-moment'] ||= 'true'
   #    content_tag(:abbr, 'Local time: ' + l(time.in_time_zone), options.merge(:title => time.iso8601))
   #  end
   #
